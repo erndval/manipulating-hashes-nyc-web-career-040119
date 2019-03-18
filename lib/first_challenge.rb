@@ -14,12 +14,10 @@ def first_challenge
   }
 
   updated_contacts = contacts.each do |person, data|
-    if person == "Freddy Mercury"
       data.each do |ice_cream, flavors|
         data.delete_if {|flavors| flavors == "strawberry"}
       end
     end
-  end
 
   #remember to return your newly altered contacts hash!
   updated_contacts
