@@ -6,7 +6,8 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
-  #code your solution here!
+shopping_cart = []
+groceries.each do |food_group, item|
 
   
 
