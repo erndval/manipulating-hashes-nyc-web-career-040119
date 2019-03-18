@@ -15,7 +15,7 @@ def first_challenge
 
   contacts.each do |person, data|
     if person == "Freddy Mercury"
-      data.deleteif {|ice_cream, flavors| flavors == "strawberry"
+      data.delete_if {|ice_cream, flavors| flavors == "strawberry"
     end
   end
 
