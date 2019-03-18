@@ -15,7 +15,7 @@ def first_challenge
 
   updated_contacts = contacts.each do |person, data|
       data.each do |ice_cream, flavors|
-        data.delete_if {|flavors| flavors == "strawberry"}
+        ice_cream.delete_if {|flavors| flavors == "strawberry"}
       end
     end
 
