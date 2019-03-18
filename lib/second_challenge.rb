@@ -6,7 +6,7 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
-shopping_cart = []
-groceries.values
+groceries_array = groceries.values
+groceries.each
 
 end
