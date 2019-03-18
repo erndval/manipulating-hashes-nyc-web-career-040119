@@ -7,6 +7,6 @@ def second_challenge
   }
 
 groceries_array = groceries.values
-groceries.each
+groceries_array.flatten
 
 end
