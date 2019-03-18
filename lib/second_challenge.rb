@@ -8,6 +8,5 @@ def second_challenge
 
 shopping_cart = []
 groceries.values
-end
 
 end
