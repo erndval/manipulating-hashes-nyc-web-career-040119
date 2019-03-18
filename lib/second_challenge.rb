@@ -7,8 +7,7 @@ def second_challenge
   }
 
 shopping_cart = []
-groceries.each do |food_group, item|
-  food_group.values + shopping_cart
+groceries.values
 end
 
 end
